@@ -1,0 +1,382 @@
+html {
+  margin: 0 auto;
+  font-family: unset;
+}
+body {
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p,span {
+  font-family: "DM Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Frank Ruhl Libre", sans-serif;
+}
+img.img-fluid.logo {
+  max-width: 300px;
+}
+.navbar {
+  padding: 0.6rem 1rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 7px;
+  padding-left: 7px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 14px;
+  color: #000 !important;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #a32c20 !important;
+}
+.navbar .container {
+  padding: 0px;
+}
+section.banners {
+  padding: 100px 0px 0px;
+  background: linear-gradient(#a32c20, #193662);
+  text-align: center;
+}
+section.features-icons {
+  padding: 50px 0px;
+}
+section.features-icons .card-bg {
+  text-align: left;
+  box-shadow: 0px 0px 6px;
+  border-radius: 5px;
+  padding: 15px;
+  background: url("../img/pattern3.png") top right / auto no-repeat;
+}
+h3.features-heading {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  border-bottom: 2px solid #000;
+  padding: 0px 0px 10px 0px;
+  font-size: 24px;
+  font-weight: 600;
+}
+p.features-text {
+  color: #000;
+  margin-bottom: 5px !important;
+}
+section.about-us-video {
+  background: #fff0f1;
+  padding: 50px 10px 30px;
+}
+h3.main-heading {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  padding: 0px 0px 10px 0px;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 600;
+}
+section.about-offers {
+  padding: 50px 0px;
+}
+h2.main-heading {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  padding: 0px 0px 10px 0px;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+section.about-offers .card-bg {
+  padding: 30px 20px;
+  border-radius: 15px;
+  background: #a32c20;
+  background-image: linear-gradient(180deg, #A32C20 0%, #68140C 100%);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.about-offers h3.text-white {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 24px;
+}
+section.placement-highlights {
+  padding: 50px 0px 20px;
+  text-align: center;
+  background: #f5f5f5;
+}
+section.placement-highlights .card-bg {
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+h3.heading-placement {
+  color: #a32c19;
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 50px;
+  text-align: left;
+  font-weight: 600;
+}
+p.text-placement {
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+}
+button.btn.btn-primary {
+  background: #a32c20;
+  border-color: #a32c20;
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 20px;
+}
+.card {
+  border: 0px !important;
+}
+.card .img-fluid {
+  border-radius: 5px;
+}
+section.recruiters {
+  background-image: url(../img/premium-recruiters-bg.jpg);
+  background-color: var(--e-global-color-93435a6);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0px 40px;
+}
+.col-12.text-center {
+  margin-top: 20px;
+}
+.nav-buttons {
+  color: #fff !important;
+  background-color: transparent !important;
+  border-color: #fff !important;
+}
+section.faculty {
+  padding: 50px 0px 40px;
+  text-align: center;
+}
+section.faculty .card-bg {
+  padding: 20px 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+h3.heading-faculty {
+  color: #a32c19;
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+p.text-faculty {
+  color: #000;
+  font-size: 15px;
+  text-align: center;
+}
+section.reasons {
+  padding: 30px 0px;
+  background: #f5f5f5;
+}
+section.reasons .item {
+  background: linear-gradient(203deg, #193662 0%, #a32c20 100%);
+  border-radius: 10px;
+}
+section.reasons img {
+  max-width: 69px;
+}
+.card-new {
+  background: transparent !important;
+  text-align: center;
+  align-items: center;
+  padding: 20px 10px;
+  min-height: 200px !important;
+}
+p.card-text {
+  font-size: 15px;
+  margin: 5px 0px;
+  color: #fff;
+}
+section.showcase {
+  background: #fff0f1;
+  padding: 30px 0px 10px;
+}
+section.gallery {
+  background: #fff;
+  padding: 30px 0px;
+}
+section.cta {
+  background: #a32c20;
+  text-align: center;
+  padding: 30px 0px;
+}
+button.btn.btn-primary-alt {
+  background: #fff;
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 25px;
+  padding: 10px 30px;
+}
+section.footer {
+  background: #000;
+    background-image: url(../img/footer-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.footer a {
+  color: #fff;
+}
+section.footer a:hover {
+  color: #a32c20;
+  text-decoration: none;
+}
+section.footer h5 {
+  color: #fff;
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+}
+.container.bottom {
+  border-top: 1px solid #ccc;
+}
+.col.contact-details {
+  display: flex;
+}
+p.lead {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+}
+p.text-white.text-left,
+p.text-white.text-right {
+  font-size: 13px;
+}
+section.teams h5 {
+  font-size: 18px;
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-weight: 600;
+}
+p.team-card-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #292929;
+}
+section.teams {
+  background: #fff;
+  padding: 50px 0px;
+  text-align: center;
+}
+section.teams img {
+  width: 250px;
+}
+h5.team-card-heading {
+  font-size: 18px;
+  font-family: "Frank Ruhl Libre", sans-serif;
+  margin: 10px 0px;
+}
+.card.team {
+  border: 1px solid #ccc !important;
+  padding: 5px;
+  border-radius: 15px;
+}
+.card.team img {
+  border-radius: 10px;
+}
+.nav-buttons1 {
+  color: #fff;
+  background-color: #a32c20 !important;
+  border-color: #a32c20 !important;
+}
+section.students-testimonials {
+  background: #f5f5f5;
+  padding: 30px 0px;
+}
+i.fa.fa-quote-left {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+img.review-img-fluid {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  border: 3px solid #fff;
+  margin: 10px auto;
+}
+.card.review {
+  text-align: center;
+  background: #a32c20;
+  padding: 20px;
+  color: #fff;
+  display: block;
+  border-radius: 10px;
+}
+p.review-card-text {
+  font-size: 14px;
+}
+.review-card-heading {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.review-card-heading span {
+  font-size: 14px;
+  font-weight: 600;
+}
+section.students-testimonials .testimonials-carousel .owl-item:nth-child(odd) .card.review {
+  background: #193662 !important;
+}
+.review-bottom {
+  display: block;
+  text-align: center;
+  margin-top: 0px;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 10px;
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #193662;
+  border-color: #193662;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background-color: #333;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #a32c20;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.owl-nav {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  display: block;
+  padding: 0 .3em !important;
+  font-size: 3em;
+  margin: 0;
+  cursor: pointer;
+  color: #000;
+  transform: translate(-50%, -50%);
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
+  position: absolute;
+  right: -23px;
+  top: 50%;
+  display: block ;
+  padding: 0 .3em !important;
+  font-size: 3em ;
+  margin: 0;
+  cursor: pointer;
+  color: #000;
+  transform: translate(-50%, -50%);
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: #a32b2093;
+  color: #FFF;
+  text-decoration: none;
+}
+button:focus {
+  border: none;
+  outline: none;
+}
